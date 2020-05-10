@@ -1,0 +1,1124 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Hun-made</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+	<header class="header">
+		<div class="big-wrapper extrapadding">
+			<a href="index-en.html" class="logo"><svg width="12" height="28" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M8.625 9.92405L10.425 8.84658C11.37 9.32861 12 10.2643 12 11.3418V28C12 28 0 25.519 0 12.7595V11.3418C0 10.3068 0.585 9.39949 1.455 8.90329L3.645 9.92405L6 8.50633L8.625 9.92405ZM3 0C5.295 0 7.2 1.63038 7.5 3.74278C9 4.15392 10.215 5.20304 10.83 6.56405L8.625 7.79747L6 6.37975L3.645 7.79747L1.14 6.62076C1.725 5.27392 2.925 4.25316 4.41 3.77114C4.2 3.2324 3.645 2.83544 3 2.83544V0Z" fill="#E44848"/>
+			</svg> Hun-made</a>
+			<input class="menu-btn" type="checkbox" id="menu-btn" />
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<ul class="menu">
+				<li><a aria-label="Váltás magyar nyelvre/Switch to Hungarian" class="language-switcher-container" href="index.html">
+					<span class="language-switcher">
+						<svg width="16" height="16" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="ls-color" d="M14.9175 14.4917C14.7008 13.825 14.0758 13.3333 13.3341 13.3333H12.5008V10.8333C12.5008 10.6123 12.413 10.4003 12.2567 10.2441C12.1005 10.0878 11.8885 9.99999 11.6675 9.99999H6.66748V8.33332H8.33415C8.55516 8.33332 8.76712 8.24552 8.9234 8.08924C9.07968 7.93296 9.16748 7.721 9.16748 7.49999V5.83332H10.8341C11.2762 5.83332 11.7001 5.65773 12.0127 5.34517C12.3252 5.03261 12.5008 4.60868 12.5008 4.16666V3.82499C14.9425 4.80832 16.6675 7.19999 16.6675 9.99999C16.6675 11.7333 16.0008 13.3083 14.9175 14.4917ZM9.16748 16.6083C5.87581 16.2 3.33415 13.4 3.33415 9.99999C3.33415 9.48332 3.40081 8.98332 3.50915 8.50832L7.50081 12.5V13.3333C7.50081 13.7753 7.67641 14.1993 7.98897 14.5118C8.30153 14.8244 8.72545 15 9.16748 15V16.6083ZM10.0008 1.66666C8.90647 1.66666 7.82283 1.8822 6.81179 2.30099C5.80074 2.71978 4.88208 3.33361 4.10826 4.10743C2.54545 5.67024 1.66748 7.78985 1.66748 9.99999C1.66748 12.2101 2.54545 14.3297 4.10826 15.8925C4.88208 16.6664 5.80074 17.2802 6.81179 17.699C7.82283 18.1178 8.90647 18.3333 10.0008 18.3333C12.211 18.3333 14.3306 17.4553 15.8934 15.8925C17.4562 14.3297 18.3341 12.2101 18.3341 9.99999C18.3341 8.90564 18.1186 7.82201 17.6998 6.81096C17.281 5.79991 16.6672 4.88125 15.8934 4.10743C15.1195 3.33361 14.2009 2.71978 13.1898 2.30099C12.1788 1.8822 11.0952 1.66666 10.0008 1.66666Z" fill="var(--Low-emp)"/>
+						</svg>
+						Magyar</span></a></li>
+						<li><a href="index-en.html">Home</a></li>
+						<li><a href="about-en.html">About</a></li>
+						<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfU7J0YxWmDz_hzcaNftkcziByKBA4xKT4Kk4zYip8-DdziLA/viewform?usp=sf_link" target="blank">Submit a business</a></li>
+						<!-- <li><a class="button-container" href="https://www.google.com/" target="blank"><span class="button">Submit your store</span></a></li> -->
+					</ul>
+				</div>
+			</header>
+			<div id="top-shadow"></div>
+
+			<div class="big-wrapper">
+
+				<!-- <div class="circle"></div>
+				<div class="circle-2"></div> -->
+
+				<div class="hero-container col-xs-12 col-md-offset-1 col-md-10">
+					<h1>A collection of <span class="bold-text">ingenious Hungarian</span> entrepreneurs.</h1>
+					<p class="bigger-p description col-md-offset-1 col-md-10">Browse among quality entrepreneurial ideas, arts & crafts and fashion products born in Hungary.</p>
+				</div>
+
+				<main class="cd-main-content">
+					<div class="cd-tab-filter-wrapper col-md-offset-2 col-md-8">
+						<div class="cd-tab-filter">
+							<ul class="cd-filters">
+								<li class="placeholder">
+									<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+								</li>
+								<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+								<li class="filter" data-filter=".art"><a href="#0" data-type="art">Arts & crafts</a></li>
+								<!-- <li class="filter" data-filter=".alcohol"><a href="#0" data-type="alcohol">Alcohol</a></li> -->
+								<!-- <li class="filter" data-filter=".books"><a href="#0" data-type="books">Books</a></li> -->
+								<li class="filter" data-filter=".baby"><a href="#0" data-type="baby">Baby & mother</a></li>
+								<!-- <li class="filter" data-filter=".coffee"><a href="#0" data-type="coffee">Coffee & tea</a></li> -->
+								<li class="filter" data-filter=".fashion"><a href="#0" data-type="fashion">Fashion</a></li>
+								<li class="filter" data-filter=".food"><a href="#0" data-type="food">Food</a></li>
+								<!-- <li class="filter" data-filter=".gardening"><a href="#0" data-type="gardening">Gardening</a></li> -->
+								<li class="filter" data-filter=".home"><a href="#0" data-type="home">Home</a></li>
+								<li class="filter" data-filter=".jewelry"><a href="#0" data-type="jewelry">Jewelry</a></li>
+								<!-- <li class="filter" data-filter=".sports"><a href="#0" data-type="sports">Sports</a></li> -->
+								<!-- <li class="filter" data-filter=".workshop"><a href="#0" data-type="workshop">Workshop</a></li> -->
+								<li class="filter" data-filter=".other"><a href="#0" data-type="other">Other</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<section class="cards cd-gallery">
+						<ul>
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://www.pomponia.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--pomponia"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+
+											</div>
+											<div class="card__title">Pomponia Bridal</div>
+											<p class="card__text">Ethereal, romantic pieces of bridalwear made by fashion designer Dominika Nagy.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.0007 5.58301L11.209 8.79134L14.4173 9.99967L11.209 11.208L10.0007 14.4163L8.79232 11.208L5.58398 9.99967L8.79232 8.79134L10.0007 5.58301ZM10.0007 0.833008L7.50065 7.49967L0.833984 9.99967L7.50065 12.4997L10.0007 19.1663L12.5006 12.4997L19.1673 9.99967L12.5006 7.49967L10.0007 0.833008Z" fill="var(--Low-emp)"/>
+											</svg>
+											Editor's choice</div>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
+											</svg>
+											In-store only</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art home">
+								<a  class="cards__item" href="https://vandor.studio/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--vandor"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Home</div>
+											</div>
+											<div class="card__title">Vandorstudio</div>
+											<p class="card__text">Unique, high quality & handmade textiles for your home and business.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.0007 5.58301L11.209 8.79134L14.4173 9.99967L11.209 11.208L10.0007 14.4163L8.79232 11.208L5.58398 9.99967L8.79232 8.79134L10.0007 5.58301ZM10.0007 0.833008L7.50065 7.49967L0.833984 9.99967L7.50065 12.4997L10.0007 19.1663L12.5006 12.4997L19.1673 9.99967L12.5006 7.49967L10.0007 0.833008Z" fill="var(--Low-emp)"/>
+											</svg>
+											Editor's choice</div>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art">
+								<a  class="cards__item" href="https://www.instagram.com/milyen_kedves/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--milyen"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+											</div>
+											<div class="card__title">Milyen Kedves</div>
+											<p class="card__text">Gentle patterns & drawings on our kind everyday objects.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.0007 5.58301L11.209 8.79134L14.4173 9.99967L11.209 11.208L10.0007 14.4163L8.79232 11.208L5.58398 9.99967L8.79232 8.79134L10.0007 5.58301ZM10.0007 0.833008L7.50065 7.49967L0.833984 9.99967L7.50065 12.4997L10.0007 19.1663L12.5006 12.4997L19.1673 9.99967L12.5006 7.49967L10.0007 0.833008Z" fill="var(--Low-emp)"/>
+											</svg>
+											Editor's choice</div>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
+											</svg>
+											In-store only</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art other">
+								<a  class="cards__item" href="https://apacukaceramics.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--apacuka"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Other</div>
+											</div>
+											<div class="card__title">Apacuka Ceramics</div>
+											<p class="card__text">Artist couple's beautiful ceramics craftshop & DIY workshops.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Hungary</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art jewelry">
+								<a  class="cards__item" href="https://cirrhopp.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--cirrhopp"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Jewelry</div>
+											</div>
+											<div class="card__title">Cirrhopp</div>
+											<p class="card__text">Rainbow-inspired upcycled, handmade, non-allergic jewelry.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion other">
+								<a  class="cards__item" href="https://www.fabala.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--fabala"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<div class="tag">·</div>
+												<div class="tag">Other</div>
+											</div>
+											<div class="card__title">Fabala</div>
+											<p class="card__text">Handmade wooden frame designs for your glasses.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
+											</svg>
+											In-store only</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion other">
+								<a  class="cards__item" href="https://fannynagy.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--fanna"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<div class="tag">·</div>
+												<div class="tag">Other</div>
+											</div>
+											<div class="card__title">Fanna Polewear</div>
+											<p class="card__text">Fanni Nagy's shop targets women who think sustainably when shopping for sportswear.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
+											</svg>
+											In-store only</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art fashion">
+								<a  class="cards__item" href="https://www.fraau.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--fraau"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Fraau</div>
+											<p class="card__text">Bold colors and leather design for your wardrobe and your commute.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix food">
+								<a  class="cards__item" href="https://www.fraau.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--fruitshop"></div>
+											<div class="tags">
+												<div class="tag">Food</div>
+											</div>
+											<div class="card__title">Fruitshop</div>
+											<p class="card__text">Fruit & veggie market online.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Hungary</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix fashion baby">
+								<a  class="cards__item" href="https://www.fygekids.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--fyge"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Fyge Kids</div>
+											<p class="card__text">Danish-Hungarian eco baby clothing made of sustainable raw materials, comfortable pieces for children.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix food">
+								<a  class="cards__item" href="https://www.groenkwebshop.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--groenk"></div>
+											<div class="tags">
+												<div class="tag">Food</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Fashion</div> -->
+											</div>
+											<div class="card__title">Groenk</div>
+											<p class="card__text">Online deli providing your home with all things necessary from food to flowers.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Budapest</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix fashion baby">
+								<a  class="cards__item" href="https://gynkaknitwear.bigcartel.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--gynka"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Gynka Knitwear</div>
+											<p class="card__text">Custom-made eco-textile knitted pieces for children.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix food">
+								<a  class="cards__item" href="https://gyumolcskiraly.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--gyumolcskiraly"></div>
+											<div class="tags">
+												<div class="tag">Food</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Fashion</div> -->
+											</div>
+											<div class="card__title">Gyümölcskirály</div>
+											<p class="card__text">Fruit & veggie delivery directly to your home or office.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Budapest</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix food">
+								<a  class="cards__item" href="http://www.hazaipiac.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--hazaipiac"></div>
+											<div class="tags">
+												<div class="tag">Food</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Fashion</div> -->
+											</div>
+											<div class="card__title">Hazai Piac</div>
+											<p class="card__text">All kinds of food from local producers only, delivered to your door.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Hungary</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix other">
+								<a  class="cards__item" href="https://kellapudershop.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--kap"></div>
+											<div class="tags">
+												<div class="tag">Other</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Fashion</div> -->
+											</div>
+											<div class="card__title">KAP</div>
+											<p class="card__text">The Hungarian makeup brand - alcohol- and cruelty-free.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Hungary</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://keleclothing.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--kelle"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Fashion</div> -->
+											</div>
+											<div class="card__title">Kele Clothing</div>
+											<p class="card__text">Timeless, simple, sustainable knitwear clothes with fun patterns and a healthy dose of colour.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix food">
+								<a  class="cards__item" href="https://kicsicake.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--kicsicake"></div>
+											<div class="tags">
+												<div class="tag">Food</div>
+											</div>
+											<div class="card__title">Kicsicake</div>
+											<p class="card__text">Cupcake crafts and other goodies in Budapest. Breakfasts, snacks or special occasions - also with delivery option.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Budapest</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion art">
+								<a  class="cards__item" href="https://shop.kiskasbags.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--kiskas"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Kis Kas</div>
+											<p class="card__text">Backpacks and other natural home design crafts.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion art">
+								<a  class="cards__item" href="https://malinko.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--malinko"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Malinko Bags</div>
+											<p class="card__text">Sustainable bags and accessories made from wooden, textile and leather pieces.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
+											</svg>
+											In-store only</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix fashion art">
+								<a  class="cards__item" href="https://maminvent.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--maminvent"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Maminvent</div>
+											<p class="card__text">Unique and upcycled crafts, made from recycled materials.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://mapmeup.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--mapmeup"></div>
+											<div class="tags">
+												<!-- <div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div> -->
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">MapMeUp</div>
+											<p class="card__text">Wear the world - a collection of clothes & accessories for travel lovers.</p>
+											<!-- <div class="card-divider"></div> -->
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://matyodesign.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--matyo"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Matyodesign</div>
+											<p class="card__text">Forgotten patterns from the Hungarian village life envisioned into today's fashion, produced sustainably and locally.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art fashion jewelry">
+								<a  class="cards__item" href="https://www.meska.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--meska"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+												<div class="tag">·</div>
+												<div class="tag">Jewelry</div>
+											</div>
+											<div class="card__title">Meska</div>
+											<p class="card__text">Fair-trade marketplace of quality handicraft products and materials.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix baby fashion">
+								<a  class="cards__item" href="https://www.juditvigvari.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--milly"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Milly And Bro</div>
+											<p class="card__text">Childrenswear made by fashion designer Judit Vigvari using sustainable raw materials.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+
+							<li class="card-padding mix art fashion">
+								<a  class="cards__item" href="https://muskinn.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--muskinn"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Muskinn</div>
+											<p class="card__text">Bags and accessories with a basic and a conceptual line + DIY workshops.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix food">
+								<a  class="cards__item" href="https://www.nekedterem.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--nekedterem"></div>
+											<div class="tags">
+												<!-- <div class="tag">Coffee & Tea</div>
+												<div class="tag">·</div> -->
+												<div class="tag">Food</div>
+											</div>
+											<div class="card__title">NekedTerem</div>
+											<p class="card__text">Quality food materials from local family businesses.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Budapest</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://nesshoes.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--nesshoes"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Nesshoes</div>
+											<p class="card__text">Extremely unique, hand-made shoes and fashion accessories.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix fashion baby">
+								<a  class="cards__item" href="https://www.nimiri.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--nimri"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Nimiri</div>
+											<p class="card__text">Organic cotton clothing for kids, made by a Hungarian mom.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Hungary</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="card-padding mix baby fashion">
+								<a  class="cards__item" href="https://novedesigns.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--nove"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">NoveDesign</div>
+											<p class="card__text">Small family business producing baby, kid's, woman's clothing and accessories using organic certified textiles and Oeko-tex.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion baby">
+								<a  class="cards__item" href="https://www.oatava.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--oatava"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Oatava</div>
+											<p class="card__text">Sustainable, ethically made, natural knitwear for you and for the kids. Soft & simple knits for a slow & simple life.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art">
+								<a  class="cards__item" href="https://panyizsuzsi.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--panyizsuzsi"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Fashion</div> -->
+											</div>
+											<div class="card__title">Panyizsuzsi</div>
+											<p class="card__text">Glass jewelry from the industrial designer - achitect Zsuzsi Panyi.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Hungary</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://philomen.eu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--philomen"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Fashion</div> -->
+											</div>
+											<div class="card__title">Philomén</div>
+											<p class="card__text">Philomén is an eco-friendly swimwear brand for conscious women, designed and handmade locally in Budapest.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+
+							<li class="card-padding mix art home jewelry">
+								<a  class="cards__item" href="https://www.plantethics.eu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--plantethics"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Home</div>
+												<div class="tag">·</div>
+												<div class="tag">Jewelry</div>
+											</div>
+											<div class="card__title">Plantethics</div>
+											<p class="card__text">Vegan, elegant, minimalist, nature inspired jewelry, fashion and home accessories.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion home">
+								<a  class="cards__item" href="https://printa.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--printa"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<div class="tag">·</div>
+												<div class="tag">Home</div>
+											</div>
+											<div class="card__title">Printa</div>
+											<p class="card__text">Men's and women's clothing and home accessories - you can find many goodies here made in the spirit of the zero waste movement.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion art">
+								<a  class="cards__item" href="https://www.repityke.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--reptyike"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Repityke</div>
+											<p class="card__text">Upcycled unique bags and other useful design stuff for your busy days.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix home art">
+								<a  class="cards__item" href="https://shamobags.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--shamo"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Home</div>
+											</div>
+											<div class="card__title">Shamo Bags</div>
+											<p class="card__text">Zero waste home accessories to reduce your economical footprint.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://sparklemonde.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--sparke"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Home</div> -->
+											</div>
+											<div class="card__title">Sparke le Monde</div>
+											<p class="card__text">An online concept store featuring emerging and developed designers' products never sold before in the Central-European region, positioned from premium to luxury.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion baby">
+								<a  class="cards__item" href="https://www.symbyo.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--symbyo"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Symbyo</div>
+											<p class="card__text">Functional baby and mother clothing using organic cotton and eco-textile materials.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											EU delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix baby other">
+								<a  class="cards__item" href="https://www.tinatti.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--tinatti"></div>
+											<div class="tags">
+												<div class="tag">Baby & Mother</div>
+												<div class="tag">·</div>
+												<div class="tag">Other</div>
+											</div>
+											<div class="card__title">TinAtti</div>
+											<p class="card__text">Quality wooden toys for kids.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
+											</svg>
+											In-store only</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion other">
+								<a  class="cards__item" href="https://thinwood.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--thinwood"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<div class="tag">·</div>
+												<div class="tag">Other</div>
+											</div>
+											<div class="card__title">Thinwood</div>
+											<p class="card__text">Designer eyewear crafting composite, lightweight frames.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
+											</svg>
+											In-store only</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://tomcsanyi.eu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--tomcsanyi"></div>
+											<div class="tags">
+												<!-- <div class="tag">Baby & Mother</div>
+												<div class="tag">·</div> -->
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Tomcsanyi Fashion</div>
+											<p class="card__text">High-end fashion and top-notch minimalism with a retrospective kick by Hungarian fashion designer Dóri Tomcsányi.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											EU delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://touchmenotclothing.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--touchmenot"></div>
+											<div class="tags">
+												<!-- <div class="tag">Baby & Mother</div>
+												<div class="tag">·</div> -->
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Touch Me Not</div>
+											<p class="card__text">Long-lasting desings, locally supplied sustainable materials - this fashion store run by two enthusiastic engineers is for you if you love quality organic cotton clothes.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://www.underseawear.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--underseawear"></div>
+											<div class="tags">
+												<!-- <div class="tag">Baby & Mother</div>
+												<div class="tag">·</div> -->
+												<div class="tag">Fashion</div>
+											</div>
+											<div class="card__title">Underseawear</div>
+											<p class="card__text">Selecting only the best materials in respect of the environment as well as durability, the swimsuit brand's productions are ethically done in Hungary.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix art">
+								<a  class="cards__item" href="https://ursuslupus.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--urs"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Home</div>
+											</div>
+											<div class="card__title">Ursuslupus</div>
+											<p class="card__text">Upcycled waste materials made into beautiful design.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Hungary</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix food">
+								<a  class="cards__item" href="https://vegabox.hu/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--vegabox"></div>
+											<div class="tags">
+												<div class="tag">Food</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Home</div> -->
+											</div>
+											<div class="card__title">Vegabox</div>
+											<p class="card__text">Fresh fruit and veggies directly from local producers.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Delivers to Budapest</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix home art">
+								<a  class="cards__item" href="https://www.vuuvworks.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--vuuvworks"></div>
+											<div class="tags">
+												<div class="tag">Arts & Crafts</div>
+												<div class="tag">·</div>
+												<div class="tag">Home</div>
+											</div>
+											<div class="card__title">Vuuvworks</div>
+											<p class="card__text">Beautiful handcrafted pieces to furnish your home with.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="card-padding mix fashion">
+								<a  class="cards__item" href="https://www.wyhoys.com/" target="_blank">
+									<div class="card">
+										<div class="card__content">
+											<div class="card__image card__image--wy"></div>
+											<div class="tags">
+												<div class="tag">Fashion</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Home</div> -->
+											</div>
+											<div class="card__title">Wyhoys</div>
+											<p class="card__text">Sustainable fashion store founded by fashion designer Lilla Pápai, focusing on transparency and raising awareness around global environmental issues.</p>
+											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
+											</svg>
+											Worldwide delivery</div>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<!-- <li class="mix color-2 check2 radio2 option2"><img src="img/img-2.jpg" alt="Image 2"></li>
+							<li class="mix color-1 check3 radio3 option1"><img src="img/img-3.jpg" alt="Image 3"></li>
+							<li class="mix color-1 check3 radio2 option4"><img src="img/img-4.jpg" alt="Image 4"></li>
+							<li class="mix color-1 check1 radio3 option2"><img src="img/img-5.jpg" alt="Image 5"></li>
+							<li class="mix color-2 check2 radio3 option3"><img src="img/img-6.jpg" alt="Image 6"></li>
+							<li class="mix color-2 check2 radio2 option1"><img src="img/img-7.jpg" alt="Image 7"></li>
+							<li class="mix color-1 check1 radio3 option4"><img src="img/img-8.jpg" alt="Image 8"></li>
+							<li class="mix color-2 check1 radio2 option3"><img src="img/img-9.jpg" alt="Image 9"></li>
+							<li class="mix color-1 check3 radio2 option4"><img src="img/img-10.jpg" alt="Image 10"></li>
+							<li class="mix color-1 check3 radio3 option2"><img src="img/img-11.jpg" alt="Image 11"></li>
+							<li class="mix color-2 check1 radio3 option1"><img src="img/img-12.jpg" alt="Image 12"></li> -->
+						</ul>
+					</section>
+				</main>
+			</div>
+
+			<footer>
+				<div class="footer-divider"></div>
+				<div class="footer-text">Hun-made with love.</div>
+			</footer>
+
+
+			<script src="js/jquery-2.1.1.js"></script>
+			<script src="js/jquery.mixitup.min.js"></script>
+			<script src="js/main.js?v=1.1"></script>
+
+			<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>AOS.init();</script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+			<!-- <script type="text/javascript" src="js/main.js?v=1.1"> </script> -->
+
+		</body>
+		</html>
