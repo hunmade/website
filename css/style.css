@@ -1077,11 +1077,11 @@ display: inline-block;
 }
 
 .card__image--kiskas {
-  background-image: url('../images/maminvent.png');
+  background-image: url(https://assets.bigcartel.com/theme_images/51579062/33.jpg?auto=format&fit=max&w=1800);
 }
 
 .card__image--maminvent {
-  background-image: url(https://maminvent.hu/wp-content/uploads/2018/09/IMG_0322_2-300x300.png);
+  background-image: url('../images/maminvent.png');
 }
 
 .card__image--meska {
