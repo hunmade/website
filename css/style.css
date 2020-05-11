@@ -42,7 +42,7 @@
 --Bg: rgba(255,255,255,1);
 	/* --Bg: #FFF9F6; */
 --Accent: #E44848;
---Accent-hover: #D63030;
+--Accent-hover: #BB2E2E;
 --Highlight-color: #F9EDC3;
 --Always-white: rgba(255,255,255,1);
 --Error: #B00020;
@@ -355,6 +355,11 @@ display: none;
 	color: var(--Accent);
 }
 
+.header .menu li a u{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
 .selected-menu-item{
 	background-color: var(--Lowest-emp);
@@ -362,8 +367,15 @@ display: none;
 
 @media (min-width: 768px) {
 	.selected-menu-item{
-			/* box-shadow: inset 0px -2px var(--Low-emp); */
-				background-color: transparent;
+		background-color: transparent;
+	}
+
+.header .menu li a u{
+		color: var(--Accent);
+
+	}
+.header .menu li a u:hover{
+		color: var(--Accent-hover);
 	}
 }
 
@@ -512,6 +524,35 @@ display: none;
 .button a:hover {
 	background-color: var(--Accent-hover);
 }
+
+
+
+
+.submit{
+	font-weight: 600;
+	background-color: var(--Bg);
+}
+
+.submit-container:hover {
+	color: var(--Accent);
+}
+
+.submit-container:hover .ls-color{
+	fill: var(--Accent);
+}
+
+@media (min-width: 768px) {
+.submit-container {
+	margin-top: -2px;
+}
+}
+
+
+.submit svg{
+	overflow: visible;
+}
+
+
 
 
 
