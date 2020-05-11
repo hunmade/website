@@ -896,26 +896,29 @@ display: block;
 		/* text-align: center; */
 }
 
+/* THIS MIGHT BREAK THE FILTERS */
+
 .card-padding {
-  display: -webkit-box;
-  display: flex;
+	/* latest change */
+  /* display: -webkit-box;
+  display: flex; */
 	margin: 0;
 	padding: 0;
+	display: block;
 }
 
 
-
-/* THIS MIGHT BREAK THE FILTERS */
-@media (max-width: 40rem) {
+@media (max-width: 639px) {
 .card-padding {
 display: block;
+	min-width: 100%;
 }
 .card{
 	min-width: 100%;
 }
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 640px) {
 .card-padding {
 display: inline-block;
 }
