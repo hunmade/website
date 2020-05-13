@@ -221,6 +221,12 @@ p 	{
 	object-fit: cover;
 }
 
+.button {
+	display: inline-block;
+	padding-right: 8px;
+}
+
+
 @media (min-width: 992px) {
 	.button {
 		padding-top: 32px;
@@ -1446,4 +1452,20 @@ footer{
 
 .container-404 p{
 		text-align: left;
+}
+
+
+.button-secondary a {
+	color: var(--Accent);
+	background-color: var(--Bg);
+	border: 1px solid var(--Accent);
+	border-radius: 4px;
+}
+
+
+.button-secondary a:hover {
+	color: var(--Bg);
+	background-color: var(--Accent);
+	border: 1px solid var(--Accent);
+	border-radius: 4px;
 }
