@@ -206,6 +206,14 @@ p 	{
 		padding: 104px 24px 0px 24px;
 }
 
+.newsletter-container{
+	padding-top: 56px;
+}
+
+.newsletter-container p{
+	text-align: center;
+}
+
 .flex-wrapper-about{
 	display: flex;
 	padding-top: 8px;
@@ -673,9 +681,18 @@ display: none;
 
 .button a:hover {
 	background-color: var(--Accent-hover);
+	color: var(--Bg);
 }
 
 
+.button-home {
+	margin: auto;
+	padding-right: 0;
+}
+
+.home-button-container{
+	text-align: center;
+}
 
 
 .submit{
