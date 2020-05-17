@@ -5,17 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<meta name="keywords" content="magyar, magyarország, vállalkozások, vállalkozók, ötletek, magyar designer márkák, kézműves termékek, fair-trade, környezetbarát, tudatos, vegán">
-  <meta name="description" content="Kreatív magyar vállalkozások gyűjtőhelye.">
+  <meta name="description" content="Független magyar kisvállalkozások egy helyen.">
   <meta property="og:title" content="Hun-made">
   <meta property="og:site_name" content="Hun-made">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://hun-made.com">
   <meta property="og:image" content="../ogimg-2.png">
-  <meta property="og:description" content="Kreatív magyar vállalkozások gyűjtőhelye.">
+  <meta property="og:description" content="Független magyar kisvállalkozások egy helyen.">
 
-	<link rel="stylesheet" href="css/style.css?v=1.3">
+	<link rel="stylesheet" href="css/style.css?v=1.4">
 	<title>Hun-made</title>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.js"></script> -->
 	<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
 	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0"> -->
@@ -23,8 +23,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166314580-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-166314580-1');
+</script>
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MN69W45');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN69W45"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 	<a name="top"></a>
 
 	<header class="header">
@@ -66,8 +88,8 @@
 			</a>
 
 				<div class="hero-container col-xs-12 col-md-offset-1 col-md-10">
-					<h1>Kreatív <span class="bold-text">magyar <br>vállalkozások</span> gyűjtőhelye.</h1>
-					<p class="bigger-p description col-md-offset-1 col-md-10">Válogass a találékony magyar ötletek és minőségi termékek közül, és fedezd fel a kedvencedet te is.</p>
+					<h1>Független <span class="bold-text">magyar <br>kisvállalkozások</span> egy helyen.</h1>
+					<p class="bigger-p description col-md-offset-1 col-md-10">Válogass a minőségi divat, dizájn, kézműves és egyéb termékek között és fedezd fel a kedvenceidet te is.</p>
 				</div>
 
 				<main class="cd-main-content">
@@ -87,7 +109,7 @@
 								<!-- <li class="filter" data-filter=".coffee"><a href="#0" data-type="coffee">Kávé és tea</a></li> -->
 								<li class="filter" data-filter=".jewelry"><a href="#0" data-type="jewelry">Ékszer</a></li>
 								<li class="filter" data-filter=".food"><a href="#0" data-type="food">Étel</a></li>
-								<li class="filter" data-filter=".art"><a href="#0" data-type="art">Kézműves termékek</a></li>
+								<!-- <li class="filter" data-filter=".art"><a href="#0" data-type="art">Kézműves termékek</a></li> -->
 								<!-- <li class="filter" data-filter=".gardening"><a href="#0" data-type="gardening">Kertészet</a></li> -->
 								<li class="filter" data-filter=".home"><a href="#0" data-type="home">Otthon</a></li>
 
@@ -101,7 +123,7 @@
 					<section class="cards cd-gallery">
 						<ul>
 							<li class="card-padding mix fashion">
-								<a class="cards__item" href="https://www.pomponia.hu/" target="_blank">
+								<a class="cards__item gtm-pomponia" href="https://www.pomponia.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--pomponia"></div>
@@ -126,13 +148,13 @@
 							</li>
 
 							<li class="card-padding mix art home">
-								<a  class="cards__item" href="https://vandor.studio/" target="_blank">
+								<a  class="cards__item gtm-vandor" href="https://vandor.studio/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--vandor"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Otthon</div>
 											</div>
 											<div class="card__title">Vandorstudio</div>
@@ -150,13 +172,13 @@
 								</a>
 							</li>
 
-							<li class="card-padding mix art">
-								<a  class="cards__item" href="https://www.instagram.com/milyen_kedves/" target="_blank">
+							<li class="card-padding mix home">
+								<a  class="cards__item gtm-milyenkedves" href="https://www.instagram.com/milyen_kedves/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--milyen"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
+												<div class="tag">Otthon</div>
 											</div>
 											<div class="card__title">Milyen Kedves</div>
 											<p class="card__text">Minták, rajzok, kedvességek - mindennapi tárgyainkon viszontlátva.</p>
@@ -173,15 +195,15 @@
 								</a>
 							</li>
 
-							<li class="card-padding mix art other">
-								<a  class="cards__item" href="https://apacukaceramics.com/" target="_blank">
+							<li class="card-padding mix art home">
+								<a  class="cards__item gtm-apacuka" href="https://apacukaceramics.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--apacuka"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
-												<div class="tag">Egyéb</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
+												<div class="tag">Otthon</div>
 											</div>
 											<div class="card__title">Apacuka Ceramics</div>
 											<p class="card__text">Képzőművész - néprajzos házaspár online kerámia műhelye, boltja.</p>
@@ -196,17 +218,17 @@
 							</li>
 
 							<li class="card-padding mix art jewelry">
-								<a  class="cards__item" href="https://cirrhopp.com/" target="_blank">
+								<a  class="cards__item gtm-cirrhopp" href="https://cirrhopp.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--cirrhopp"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Ékszer</div>
 											</div>
 											<div class="card__title">Cirrhopp</div>
-											<p class="card__text">Újrahasznosítható pamut alapanyagokból készülő, puha, nem allergizáló kiegészítők, ékszerek.</p>
+											<p class="card__text">Újrahasznosított alapanyagokból készült nem allergizáló kiegészítők és ékszerek.</p>
 											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M13.3333 3.33301L7.5 6.69967V13.2997L13.3333 16.6663L19.1667 13.2997V6.69967L13.3333 3.33301ZM13.3333 5.25801L16.5 7.08301L13.3333 8.90801L10.175 7.08301L13.3333 5.25801ZM0 5.83301V7.49967H5.83333V5.83301H0ZM9.16667 8.42467L12.5 10.3497V14.258L9.16667 12.3413V8.42467ZM17.5 8.42467V12.3413L14.1667 14.258V10.3497L17.5 8.42467ZM1.66667 9.16634V10.833H5.83333V9.16634H1.66667ZM3.33333 12.4997V14.1663H5.83333V12.4997" fill="var(--Low-emp)"/>
 											</svg>
@@ -217,7 +239,7 @@
 							</li>
 
 							<li class="card-padding mix fashion other">
-								<a  class="cards__item" href="https://www.fabala.hu/" target="_blank">
+								<a  class="cards__item gtm-fabala" href="https://www.fabala.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--fabala"></div>
@@ -227,7 +249,7 @@
 												<div class="tag">Egyéb</div>
 											</div>
 											<div class="card__title">Fabala</div>
-											<p class="card__text">Kézzel készített fa design szemüvegkeretek.</p>
+											<p class="card__text">Teljesen egyedi kézzel készített fa szemüvegkeretek.</p>
 											<!-- <div class="card-divider"></div> -->
 											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
@@ -238,18 +260,18 @@
 								</a>
 							</li>
 
-							<li class="card-padding mix fashion other">
-								<a  class="cards__item" href="https://fannynagy.com/" target="_blank">
+							<li class="card-padding mix fashion">
+								<a  class="cards__item gtm-fanna" href="https://fannynagy.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--fanna"></div>
 											<div class="tags">
 												<div class="tag">Divat</div>
-												<div class="tag">·</div>
-												<div class="tag">Egyéb</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Egyéb</div> -->
 											</div>
 											<div class="card__title">Fanna Polewear</div>
-											<p class="card__text">Nagy Fanni boltja azoknak a hölgyeknek szól, akik a fenntarthatóságot szem előtt tartva szeretnének sportruházatot vásárolni.</p>
+											<p class="card__text">Nagy Fanni boltja azoknak szól, akik a fenntarthatóságot szem előtt tartva szeretnének sportruházatot vásárolni.</p>
 											<div class="delivery-option"><svg width="20" height="20" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M9.99935 5.41699C10.5519 5.41699 11.0818 5.63649 11.4725 6.02719C11.8632 6.41789 12.0827 6.94779 12.0827 7.50033C12.0827 7.77391 12.0288 8.04482 11.9241 8.29758C11.8194 8.55034 11.6659 8.78001 11.4725 8.97346C11.279 9.16692 11.0494 9.32038 10.7966 9.42507C10.5438 9.52977 10.2729 9.58366 9.99935 9.58366C9.44682 9.58366 8.91691 9.36417 8.52621 8.97346C8.13551 8.58276 7.91602 8.05286 7.91602 7.50033C7.91602 6.94779 8.13551 6.41789 8.52621 6.02719C8.91691 5.63649 9.44682 5.41699 9.99935 5.41699ZM9.99935 1.66699C11.5464 1.66699 13.0302 2.28157 14.1241 3.37554C15.2181 4.4695 15.8327 5.95323 15.8327 7.50033C15.8327 11.8753 9.99935 18.3337 9.99935 18.3337C9.99935 18.3337 4.16602 11.8753 4.16602 7.50033C4.16602 5.95323 4.7806 4.4695 5.87456 3.37554C6.96852 2.28157 8.45225 1.66699 9.99935 1.66699V1.66699ZM9.99935 3.33366C8.89428 3.33366 7.83447 3.77265 7.05307 4.55405C6.27167 5.33545 5.83268 6.39526 5.83268 7.50033C5.83268 8.33366 5.83268 10.0003 9.99935 15.592C14.166 10.0003 14.166 8.33366 14.166 7.50033C14.166 6.39526 13.727 5.33545 12.9456 4.55405C12.1642 3.77265 11.1044 3.33366 9.99935 3.33366V3.33366Z" fill="var(--Low-emp)"/>
 											</svg>
@@ -260,13 +282,13 @@
 							</li>
 
 							<li class="card-padding mix art fashion">
-								<a  class="cards__item" href="https://www.fraau.com/" target="_blank">
+								<a  class="cards__item gtm-fraau" href="https://www.fraau.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--fraau"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Divat</div>
 											</div>
 											<div class="card__title">Fraau</div>
@@ -281,7 +303,7 @@
 							</li>
 
 							<li class="card-padding mix food">
-								<a  class="cards__item" href="https://fruitshop.hu/" target="_blank">
+								<a  class="cards__item gtm-fruitshop" href="https://fruitshop.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--fruitshop"></div>
@@ -301,7 +323,7 @@
 
 
 							<li class="card-padding mix fashion baby">
-								<a  class="cards__item" href="https://www.fygekids.com/" target="_blank">
+								<a  class="cards__item gtm-fyge" href="https://www.fygekids.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--fyge"></div>
@@ -323,7 +345,7 @@
 
 
 							<li class="card-padding mix food">
-								<a  class="cards__item" href="https://www.groenkwebshop.hu/" target="_blank">
+								<a  class="cards__item gtm-groenk" href="https://www.groenkwebshop.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--groenk"></div>
@@ -345,7 +367,7 @@
 
 
 							<li class="card-padding mix fashion baby">
-								<a  class="cards__item" href="https://gynkaknitwear.bigcartel.com/" target="_blank">
+								<a  class="cards__item gtm-gynka" href="https://gynkaknitwear.bigcartel.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--gynka"></div>
@@ -367,7 +389,7 @@
 
 
 							<li class="card-padding mix food">
-								<a  class="cards__item" href="https://gyumolcskiraly.com/" target="_blank">
+								<a  class="cards__item gtm-gyumolcskiraly" href="https://gyumolcskiraly.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--gyumolcskiraly"></div>
@@ -388,7 +410,7 @@
 							</li>
 
 							<li class="card-padding mix food">
-								<a  class="cards__item" href="http://www.hazaipiac.hu/" target="_blank">
+								<a  class="cards__item gtm-hazaipiac" href="http://www.hazaipiac.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--hazaipiac"></div>
@@ -409,7 +431,7 @@
 							</li>
 
 							<li class="card-padding mix other">
-								<a  class="cards__item" href="https://kellapudershop.hu/" target="_blank">
+								<a  class="cards__item gtm-kap" href="https://kellapudershop.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--kap"></div>
@@ -430,7 +452,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://keleclothing.com/" target="_blank">
+								<a  class="cards__item gtm-kele" href="https://keleclothing.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--kelle"></div>
@@ -451,7 +473,7 @@
 							</li>
 
 							<li class="card-padding mix food">
-								<a  class="cards__item" href="https://kicsicake.hu/" target="_blank">
+								<a  class="cards__item gtm-kicsicake" href="https://kicsicake.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--kicsicake"></div>
@@ -471,13 +493,13 @@
 							</li>
 
 							<li class="card-padding mix fashion art">
-								<a  class="cards__item" href="https://shop.kiskasbags.com/" target="_blank">
+								<a  class="cards__item gtm-kiskas" href="https://shop.kiskasbags.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--kiskas"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Divat</div>
 											</div>
 											<div class="card__title">Kis Kas</div>
@@ -493,13 +515,13 @@
 							</li>
 
 							<li class="card-padding mix fashion art">
-								<a  class="cards__item" href="https://malinko.hu/" target="_blank">
+								<a  class="cards__item gtm-malinko" href="https://malinko.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--malinko"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Divat</div>
 											</div>
 											<div class="card__title">Malinko Bags</div>
@@ -516,13 +538,13 @@
 
 
 							<li class="card-padding mix fashion art">
-								<a  class="cards__item" href="https://maminvent.hu/" target="_blank">
+								<a  class="cards__item gtm-mamintvet" href="https://maminvent.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--maminvent"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Divat</div>
 											</div>
 											<div class="card__title">Maminvent</div>
@@ -538,7 +560,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://mapmeup.com/" target="_blank">
+								<a  class="cards__item gtm-mapmeup" href="https://mapmeup.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--mapmeup"></div>
@@ -560,7 +582,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://matyodesign.hu/" target="_blank">
+								<a  class="cards__item gtm-matyo" href="https://matyodesign.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--matyo"></div>
@@ -579,13 +601,13 @@
 							</li>
 
 							<li class="card-padding mix art fashion jewelry">
-								<a  class="cards__item" href="https://www.meska.hu/" target="_blank">
+								<a  class="cards__item gtm-meska" href="https://www.meska.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--meska"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Divat</div>
 												<div class="tag">·</div>
 												<div class="tag">Ékszer</div>
@@ -602,7 +624,7 @@
 							</li>
 
 							<li class="card-padding mix baby fashion">
-								<a  class="cards__item" href="https://www.juditvigvari.com/" target="_blank">
+								<a  class="cards__item gtm-milly" href="https://www.juditvigvari.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--milly"></div>
@@ -625,13 +647,13 @@
 
 
 							<li class="card-padding mix art fashion">
-								<a  class="cards__item" href="https://muskinn.com/" target="_blank">
+								<a  class="cards__item gtm-muskinn" href="https://muskinn.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--muskinn"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Divat</div>
 											</div>
 											<div class="card__title">Muskinn</div>
@@ -646,7 +668,7 @@
 							</li>
 
 							<li class="card-padding mix food">
-								<a  class="cards__item" href="https://www.nekedterem.hu/" target="_blank">
+								<a  class="cards__item gtm-nekedterem" href="https://www.nekedterem.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--nekedterem"></div>
@@ -668,7 +690,7 @@
 
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://nesshoes.com/" target="_blank">
+								<a  class="cards__item gtm-nesshoes" href="https://nesshoes.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--nesshoes"></div>
@@ -688,7 +710,7 @@
 
 
 							<li class="card-padding mix fashion baby">
-								<a  class="cards__item" href="https://www.nimiri.hu/" target="_blank">
+								<a  class="cards__item gtm-nimiri" href="https://www.nimiri.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--nimri"></div>
@@ -710,7 +732,7 @@
 
 
 							<li class="card-padding mix baby fashion">
-								<a  class="cards__item" href="https://novedesigns.com/" target="_blank">
+								<a  class="cards__item gtm-nove" href="https://novedesigns.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--nove"></div>
@@ -731,7 +753,7 @@
 							</li>
 
 							<li class="card-padding mix fashion baby">
-								<a  class="cards__item" href="https://www.oatava.com/" target="_blank">
+								<a  class="cards__item gtm-oatava" href="https://www.oatava.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--oatava"></div>
@@ -751,15 +773,15 @@
 								</a>
 							</li>
 
-							<li class="card-padding mix art">
-								<a  class="cards__item" href="https://panyizsuzsi.hu/" target="_blank">
+							<li class="card-padding mix art jewelry">
+								<a  class="cards__item gtm-panyizsuzsi" href="https://panyizsuzsi.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--panyizsuzsi"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
+												<div class="tag">Ékszer</div>
 												<!-- <div class="tag">·</div>
-												<div class="tag">Divat</div> -->
+												<div class="tag">Kézműves termékek</div> -->
 											</div>
 											<div class="card__title">Panyizsuzsi</div>
 											<p class="card__text">Üvegékszerek az építész-iparművész Panyi Zsuzsi műhelyéből.</p>
@@ -773,7 +795,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://philomen.eu/" target="_blank">
+								<a  class="cards__item gtm-philomen" href="https://philomen.eu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--philomen"></div>
@@ -796,16 +818,16 @@
 
 
 							<li class="card-padding mix art home jewelry">
-								<a  class="cards__item" href="https://www.plantethics.eu/" target="_blank">
+								<a  class="cards__item gtm-plantethics" href="https://www.plantethics.eu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--plantethics"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
+												<div class="tag">Ékszer</div>
 												<div class="tag">·</div>
 												<div class="tag">Otthon</div>
-												<div class="tag">·</div>
-												<div class="tag">Ékszer</div>
 											</div>
 											<div class="card__title">Plantethics</div>
 											<p class="card__text">Vegán, elegáns, minimalista stílusú, természet ihlette ékszerek és design elemek.</p>
@@ -819,7 +841,7 @@
 							</li>
 
 							<li class="card-padding mix fashion home">
-								<a  class="cards__item" href="https://printa.hu/" target="_blank">
+								<a  class="cards__item gtm-printa" href="https://printa.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--printa"></div>
@@ -840,13 +862,13 @@
 							</li>
 
 							<li class="card-padding mix fashion art">
-								<a  class="cards__item" href="https://www.repityke.com/" target="_blank">
+								<a  class="cards__item gtm-reptyike" href="https://www.repityke.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--reptyike"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Divat</div>
 											</div>
 											<div class="card__title">Repityke</div>
@@ -860,15 +882,15 @@
 								</a>
 							</li>
 
-							<li class="card-padding mix home art">
-								<a  class="cards__item" href="https://shamobags.com/" target="_blank">
+							<li class="card-padding mix fashion art">
+								<a  class="cards__item gtm-shamo" href="https://shamobags.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--shamo"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
-												<div class="tag">Otthon</div>
+												<div class="tag">Divat</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Kézműves termékek</div> -->
 											</div>
 											<div class="card__title">Shamo Bags</div>
 											<p class="card__text">A magyar zero waste boltok királya, minden kellékkel, amire csak szükséged lehet.</p>
@@ -882,7 +904,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://sparklemonde.com/" target="_blank">
+								<a  class="cards__item gtm-sparke" href="https://sparklemonde.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--sparke"></div>
@@ -903,7 +925,7 @@
 							</li>
 
 							<li class="card-padding mix fashion baby">
-								<a  class="cards__item" href="https://www.symbyo.hu/" target="_blank">
+								<a  class="cards__item gtm-symbyo" href="https://www.symbyo.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--symbyo"></div>
@@ -923,15 +945,15 @@
 								</a>
 							</li>
 
-							<li class="card-padding mix baby other">
-								<a  class="cards__item" href="https://www.tinatti.com/" target="_blank">
+							<li class="card-padding mix baby">
+								<a  class="cards__item gtm-tinatti" href="https://www.tinatti.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--tinatti"></div>
 											<div class="tags">
 												<div class="tag">Baba-mama</div>
-												<div class="tag">·</div>
-												<div class="tag">Egyéb</div>
+												<!-- <div class="tag">·</div>
+												<div class="tag">Egyéb</div> -->
 											</div>
 											<div class="card__title">TinAtti</div>
 											<p class="card__text">Minőségi fa gyerekjátékok Virágné Brunnbauer Tinától és Virág Attilától.</p>
@@ -945,7 +967,7 @@
 							</li>
 
 							<li class="card-padding mix fashion other">
-								<a  class="cards__item" href="https://thinwood.hu/" target="_blank">
+								<a  class="cards__item gtm-thinwood" href="https://thinwood.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--thinwood"></div>
@@ -966,7 +988,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://tomcsanyi.eu/" target="_blank">
+								<a  class="cards__item gtm-tomcsanyi" href="https://tomcsanyi.eu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--tomcsanyi"></div>
@@ -987,7 +1009,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://touchmenotclothing.com/" target="_blank">
+								<a  class="cards__item gtm-touchmenot" href="https://touchmenotclothing.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--touchmenot"></div>
@@ -1008,7 +1030,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://www.underseawear.com/" target="_blank">
+								<a  class="cards__item gtm-underseawear" href="https://www.underseawear.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--underseawear"></div>
@@ -1029,13 +1051,13 @@
 							</li>
 
 							<li class="card-padding mix art">
-								<a  class="cards__item" href="https://ursuslupus.com/" target="_blank">
+								<a  class="cards__item gtm-ursuslupus" href="https://ursuslupus.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--urs"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Otthon</div>
 											</div>
 											<div class="card__title">Ursuslupus</div>
@@ -1052,7 +1074,7 @@
 
 
 							<li class="card-padding mix food">
-								<a  class="cards__item" href="https://vegabox.hu/" target="_blank">
+								<a  class="cards__item gtm-vegabox" href="https://vegabox.hu/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--vegabox"></div>
@@ -1073,13 +1095,13 @@
 							</li>
 
 							<li class="card-padding mix home art">
-								<a  class="cards__item" href="https://www.vuuvworks.com/" target="_blank">
+								<a  class="cards__item gtm-vuuvworks" href="https://www.vuuvworks.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--vuuvworks"></div>
 											<div class="tags">
-												<div class="tag">Kézműves termékek</div>
-												<div class="tag">·</div>
+												<!-- <div class="tag">Kézműves termékek</div>
+												<div class="tag">·</div> -->
 												<div class="tag">Otthon</div>
 											</div>
 											<div class="card__title">Vuuvworks</div>
@@ -1094,7 +1116,7 @@
 							</li>
 
 							<li class="card-padding mix fashion">
-								<a  class="cards__item" href="https://www.wyhoys.com/" target="_blank">
+								<a  class="cards__item gtm-wyhoys" href="https://www.wyhoys.com/" target="_blank">
 									<div class="card">
 										<div class="card__content">
 											<div class="card__image card__image--wy"></div>
@@ -1131,10 +1153,27 @@
 				</main>
 			</div>
 
+
+
+
 			<footer>
 				<div class="footer-divider"></div>
-				<div class="footer-text">Hun-made. Tőlünk, neked.</div>
+				<div class="footer-text">©2020 Hun-made. Tőlünk, neked. <a href="privacy-policy.html">Adatvédelmi irányelvek</a></div>
 			</footer>
+
+
+			<div class="cookie-container">
+				<div class="cookie-content-container">
+					<div class="disclaimer-text">
+						<div class="cookie-title">
+							Ez az oldal sütiket használ
+						</div>
+						<p>A weboldalon sütiket használunk, hogy a legjobb felhasználói élményt nyújthassuk. Az Elfogadás gombra kattintva elfogadod az <a href="privacy-policy.html">Adatvédelmi irányelveinket</a>.</p>
+						<span class="disclaimer-button">Elfogadás</span>
+					</div>
+				</div>
+			</div>
+
 
 
 			<script src="js/jquery-2.1.1.js"></script>

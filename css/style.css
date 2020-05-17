@@ -119,6 +119,27 @@ h1 {
 	}
 }
 
+h2 {
+	color: var(--High-emp);
+	font-size: 24px;
+	font-weight: 500;
+	padding-top: 24px;
+	padding-bottom: 8px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 24px;
+	line-height:36px;
+	text-align: left;
+}
+
+@media (min-width: 48em) {
+	h2 {
+		font-size: 36px;
+		line-height:44px;
+	}
+}
+
 .bold-text {
   	font-weight: 800;
 		color: var(--Accent);
@@ -196,14 +217,14 @@ p 	{
 }
 
 .image-label a{
-	color: var(--Low-emp)
+	color: var(--Low-emp);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
 .image-label a:hover{
-	color: var(--Accent)
+	color: var(--Accent);
 }
 
 .image-label{
@@ -212,7 +233,7 @@ p 	{
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 22px;
-	color: var(--Low-emp)
+	color: var(--Low-emp);
 }
 
 .image-side img{
@@ -328,7 +349,16 @@ transition: all 0.3s;
 	}
 }
 
+.hero-container-2 a {
+/* color: var(--Accent); */
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
 
+.hero-container-2 a:hover {
+color: var(--Accent)
+}
 
 
 
@@ -1225,11 +1255,11 @@ display: inline-block;
 }
 
 .card__image--groenk {
-  background-image: url(https://www.groenkwebshop.hu/torta-groenk-web-ok2.jpg);
+  background-image: url('../images/groenk.jpg');
 }
 
 .card__image--gyumolcskiraly {
-  background-image: url(https://snipboard.io/RfOLjd.jpg);
+  background-image: url('../images/gyumolcskiraly.jpg');
 }
 
 .card__image--kap {
@@ -1253,7 +1283,7 @@ display: inline-block;
 }
 
 .card__image--milyen {
-  background-image: url(https://snipboard.io/34CLNt.jpg);
+  background-image: url('../images/milyenkedves.jpg');
 }
 
 .card__image--muskinn {
@@ -1285,7 +1315,7 @@ display: inline-block;
 }
 
 .card__image--reptyike {
-  background-image: url(https://snipboard.io/YvpxzB.jpg);
+  background-image: url('../images/reptyike.jpg');
 }
 
 .card__image--shamo {
@@ -1333,7 +1363,7 @@ display: inline-block;
 }
 
 .card__image--malinko {
-  background-image: url(https://snipboard.io/qGWCxZ.jpg);
+  background-image: url('../images/malinko.png');
 }
 
 .card__image--fabala {
@@ -1353,7 +1383,7 @@ display: inline-block;
 }
 
 .card__image--hazaipiac {
-  background-image: url(https://snipboard.io/jI1439.jpg);
+  background-image: url('../images/hazaipiac.jpg');
 }
 
 .card__image-- {
@@ -1418,6 +1448,17 @@ footer{
 	padding-top: 56px;
 }
 
+footer a{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	color: var(--Low-emp);
+}
+
+footer a:hover{
+	color: var(--Accent);
+}
+
 .footer-divider{
 	background-color: var(--Divider);
 	width: 100%;
@@ -1468,4 +1509,80 @@ footer{
 	background-color: var(--Accent);
 	border: 1px solid var(--Accent);
 	border-radius: 4px;
+}
+
+
+
+/* COOKIE POLICY */
+
+.cookie-title{
+	color: var(--High-emp);
+	font-size: 24px;
+	font-weight: 700;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.cookie-container {
+	background-color: var(--Bg);
+	color: var(--High-emp);
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 999999;
+	max-width: 380px;
+	-webkit-box-shadow: 0 -2px 4px var(--Shadow);
+	-moz-box-shadow: 0 -2px 4px var(--Shadow);
+	box-shadow: 0 -2px 4px var(--Shadow);
+	margin-right: 24px;
+	margin-left: 24px;
+	border-radius: 4px 4px 0px 0px;
+}
+.cookie-container.show {
+  display: block;
+}
+
+.cookie-container .disclaimer-text {
+	padding: 24px 24px;
+}
+.cookie-container .disclaimer-text p {
+  /* font-size: 14px;
+  line-height: 22px; */
+  margin: 0;
+  text-align: center;
+}
+.cookie-container .disclaimer-text p span:before {
+  color: var(--High-emp);
+}
+.cookie-container .disclaimer-text p a {
+  color: var(--High-emp)
+}
+.cookie-container .disclaimer-button {
+	min-width: 80px;
+	text-decoration: none;
+	border: none;
+	/* display: inline-block; */
+	  display: block;
+	font-weight: 600;
+	padding: 12px 16px;
+	background-color: var(--Accent);
+	color: var(--Bg);
+	border-radius: 4px;
+	transition: .2s ease-out;
+  cursor: pointer;
+	margin-top: 16px;
+	text-align: center;
+}
+.cookie-container .disclaimer-button:hover {
+  background-color: var(--Accent-hover);
+}
+
+
+
+@media (max-width: 48em) {
+.cookie-container .disclaimer-button {
+	/* display: block; */
+  margin-left: 0px;
+}
 }
