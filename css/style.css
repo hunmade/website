@@ -37,7 +37,7 @@
 --Med-emp: #454545;
 --Low-emp: rgba(26,26,26,0.72);
 --Lowest-emp: #F0F0F2;
---Divider: #DADBDE;
+--Divider: #D4D4D6;
 --Inactive: #BBBBBB;
 --Bg: rgba(255,255,255,1);
 --Accent: #E44848;
@@ -54,7 +54,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-	--color-mode: 'light';
+	--color-mode: 'dark';
 	--High-emp: rgba(255,255,255,0.9);
 	--Med-emp: rgba(255,255,255,0.72);
 	--Low-emp: rgba(255,255,255,0.56);
@@ -207,13 +207,21 @@ p 	{
 }
 
 .newsletter-container{
-	padding-top: 56px;
+	padding-top: 52px;
 }
 
 .newsletter-container p{
 	text-align: center;
 	padding-left: 24px;
 	padding-right: 24px;
+}
+
+.newsletter-divider{
+	background-color: var(--Divider);
+	width: 100%;
+	height: 1px;
+	display: block;
+	margin-top: 56px;
 }
 
 .flex-wrapper-about{
@@ -413,9 +421,10 @@ margin-top: 12px;
 
 .cd-filter-content{
 padding: 24px;
+margin: auto;
 }
 
-.cd-filter-content input{
+/* .cd-filter-content input{
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
@@ -435,14 +444,133 @@ padding: 24px;
 }
 
 .cd-filter-content input:focus{
-	/* border:1px solid var(--Accent); */
 	-webkit-box-shadow: 0 2px 4px var(--Shadow);
 	-moz-box-shadow: 0 2px 4px var(--Shadow);
 	box-shadow: 0 2px 4px var(--Shadow);
 	background-color: var(--Bg);
 	outline: none;
 	color: var(--Accent);
+} */
+
+.cd-filter-content select{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border: none;
+	border-radius: 1000px;
+	background-color: var(--Lowest-emp);
+	text-decoration: none;
+	box-shadow: none;
+	width: 100%;
+	height:36px;
+	padding: 0px 16px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	color: var(--Low-emp);
+	cursor: pointer;
 }
+
+.cd-filter-content select:focus{
+	/* -webkit-box-shadow: 0 2px 4px var(--Shadow);
+	-moz-box-shadow: 0 2px 4px var(--Shadow);
+	box-shadow: 0 2px 4px var(--Shadow);
+	background-color: var(--Bg); */
+	outline: none;
+	/* color: var(--Accent); */
+}
+
+.cd-filter-block{
+	display: flex;
+}
+
+
+
+
+
+/* CHECKBOXES */
+
+.cd-filter-block ul {
+	margin: auto;
+	text-align: center;
+}
+
+.cd-filter-content li {
+	/* text-decoration: none;
+	list-style-type: none; */
+	padding: 8px 16px 8px 0px;
+	display: inline-block;
+	margin: auto;
+}
+
+.cd-filter-content li input {
+	cursor: pointer;
+	margin: auto;
+}
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+	color: var(--Med-emp);
+	/* margin-top: -2px; */
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 22px;
+		color: var(--Med-emp);
+}
+.styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+  background: var(--Bg);
+	border-radius: 2px;
+	border: 1px solid var(--Divider);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+			margin-top: 2px;
+}
+.styled-checkbox:hover + label:before {
+  background: var(--Lowest-emp);
+}
+/* .styled-checkbox:focus + label:before {
+  box-shadow: 0 0 0 2px var(--Lowest-emp);
+} */
+.styled-checkbox:checked + label:before {
+  background: var(--Accent);
+		border: 1px solid var(--Accent);
+}
+/* .styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+} */
+/* .styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+} */
+.styled-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 10px;
+  background: var(--Bg);
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 var(--Bg), 4px 0 0 var(--Bg), 4px -2px 0 var(--Bg), 4px -4px 0 var(--Bg), 4px -6px 0 var(--Bg), 4px -8px 0 var(--Bg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+
 
 
 /* NAVBAR */
@@ -699,7 +827,7 @@ display: none;
 
 .submit{
 	font-weight: 600;
-	background-color: var(--Bg);
+	/* background-color: var(--Bg); */
 }
 
 .submit-container:hover {
@@ -729,7 +857,7 @@ display: none;
 
 .language-switcher{
 	font-weight: 600;
-	background-color: var(--Bg);
+	/* background-color: var(--Bg); */
 }
 
 .language-switcher-container:hover {
@@ -1215,6 +1343,26 @@ display: inline-block;
   }
 }
 
+
+.new-badge{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: var(--Bg);
+	border-radius: 4px;
+	background-color: var(--Accent);
+	margin-bottom: 8px;
+	margin-right: 8px;
+	float: right;
+	padding: 2px 4px;
+	z-index: 400;
+}
+/* <div class="new-badge">NEW</div> */
+
 /* IMAGES */
 
 .card__image--kicsicake {
@@ -1222,7 +1370,8 @@ display: inline-block;
 }
 
 .card__image--fyge {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/s1080x2048/92572787_2847287242019829_8773292337913659392_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_oc=AQm4xqAurALfPQ-KV3vtcIMPGp4tUVxuduFEXiN1tf1VTEcHvNB3CriCUaklYPBEf5DpXS1bscgBzEjTJUfcrEja&_nc_ht=scontent-dub4-1.xx&_nc_tp=7&oh=708f2ab287615652430795b716db73bc&oe=5ED412A2);
+	  background-image: url('../images/fyge.jpg');
+  /* background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/s1080x2048/92572787_2847287242019829_8773292337913659392_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_oc=AQm4xqAurALfPQ-KV3vtcIMPGp4tUVxuduFEXiN1tf1VTEcHvNB3CriCUaklYPBEf5DpXS1bscgBzEjTJUfcrEja&_nc_ht=scontent-dub4-1.xx&_nc_tp=7&oh=708f2ab287615652430795b716db73bc&oe=5ED412A2); */
 }
 
 .card__image--gynka {
@@ -1405,6 +1554,263 @@ display: inline-block;
   background-image: url('../images/hazaipiac.jpg');
 }
 
+.card__image--buymeacoffee {
+	background-color: var(--Accent);
+  background-image: url('../images/buymeacoffee.png');
+}
+
+.card__image--anan {
+  background-image: url('../images/anan.jpg');
+}
+
+.card__image--annaamelie {
+  background-image: url('../images/annaamelie.jpg');
+}
+
+.card__image--annajonas {
+  background-image: url('../images/annajonas.jpg');
+}
+
+.card__image--babymountain {
+  background-image: url('../images/babymountain.jpg');
+}
+
+.card__image--bubutimart {
+  background-image: url('../images/bubutimart.jpg');
+}
+
+.card__image--bucek {
+  background-image: url('../images/bucek.jpg');
+}
+
+.card__image--byanita {
+  background-image: url('../images/byanita.jpg');
+}
+
+.card__image--ecohunt {
+  background-image: url('../images/ecohunt.jpg');
+}
+
+.card__image--feszekreszek {
+  background-image: url('../images/feszekreszek.jpg');
+}
+
+.card__image--franta {
+  background-image: url('../images/franta.jpg');
+}
+
+.card__image--franziska {
+  background-image: url('../images/franziska.jpg');
+}
+
+.card__image--free {
+  background-image: url('../images/free.jpg');
+}
+
+.card__image--fromvalerka {
+  background-image: url('../images/fromvalerka.jpg');
+}
+
+.card__image--gyurmami {
+  background-image: url('../images/gyurmami.jpg');
+}
+
+.card__image--helix {
+  background-image: url('../images/helix.jpg');
+}
+
+.card__image--kosso {
+  background-image: url('../images/kosso.jpg');
+}
+
+.card__image--lampalu {
+  background-image: url('../images/lampalu.jpg');
+}
+
+.card__image--linini {
+  background-image: url('../images/linini.jpeg');
+}
+
+.card__image--misija {
+  background-image: url('../images/misija.jpg');
+}
+
+.card__image--monge {
+  background-image: url('../images/monge.jpg');
+}
+
+.card__image--nemiskacat {
+  background-image: url('../images/nemiskacat.jpg');
+}
+
+.card__image--paperup {
+  background-image: url('../images/paperup.jpg');
+}
+
+.card__image--rekarajza {
+  background-image: url('../images/rekarajza.jpg');
+}
+
+.card__image--steixner {
+  background-image: url('../images/steixner.jpg');
+}
+
+.card__image--susu {
+  background-image: url('../images/susu.jpg');
+}
+
+.card__image--szaszzsofi {
+  background-image: url('../images/szaszzsofi.png');
+}
+
+.card__image--zenterior {
+  background-image: url('../images/zenterior.jpg');
+}
+
+.card__image--thesofistore {
+  background-image: url('../images/thesofistore.jpg');
+}
+
+.card__image--varazspallo {
+  background-image: url('../images/varazspallo.jpg');
+}
+
+.card__image--varjasart {
+  background-image: url('../images/varjasart.jpg');
+}
+
+.card__image--eccehome {
+background-image: url('../images/eccehome.jpg');
+}
+
+.card__image--fannyfashion {
+background-image: url('../images/fannyfashion.jpg');
+}
+
+.card__image--felvarrom {
+background-image: url('../images/felvarrom.jpg');
+}
+
+.card__image--flowdog {
+background-image: url('../images/flowdog.jpg');
+}
+
+.card__image--geek {
+background-image: url('../images/geek.jpg');
+}
+
+.card__image--huszka {
+background-image: url('../images/huszka.jpg');
+}
+
+.card__image--ilcsi {
+background-image: url('../images/ilcsi.jpg');
+}
+
+.card__image--kippkopp {
+background-image: url('../images/kippkopp.jpg');
+}
+
+.card__image--megyeriszabolcs {
+background-image: url('../images/megyeriszabolcs.jpg');
+}
+
+.card__image--nanushka {
+background-image: url('../images/nanushka.jpg');
+}
+
+.card__image--omorovicza {
+background-image: url('../images/omorovicza.jpg');
+}
+
+.card__image--remodel {
+background-image: url('../images/remodel.jpg');
+}
+
+.card__image--yoza {
+background-image: url('../images/yoza.jpg');
+}
+
+.card__image--szakallasember {
+background-image: url('../images/szakallasember.jpg');
+}
+
+.card__image--gion {
+background-image: url('../images/gion.jpg');
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
+.card__image-- {
+  background-image: url();
+}
+
 .card__image-- {
   background-image: url();
 }
@@ -1485,12 +1891,66 @@ footer a:hover{
 	display: block;
 }
 
-.footer-text{
-	color: var(--Med-emp);
-	text-align: center;
-	margin: auto;
+.footer-container{
+	width: 100%;
 	padding: 56px 16px 56px 16px;
 }
+
+.footer-text{ */
+	color: var(--Med-emp);
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.footer-icons{
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 24px;
+}
+
+@media (min-width: 48em) {
+	/* .footer-container{
+		width: 100%;
+		padding: 56px 16px 72px 16px;
+	} */
+	.footer-text{
+		float: left;
+		color: var(--Med-emp);
+		text-align: left;
+		display: inline-block;
+	}
+	.footer-icons{
+		float: right;
+		display: inline-block;
+		margin-top: 0px;
+	}
+}
+
+.icon-right-padding{
+	padding-right: 12px;
+}
+
+.footer-icons a{
+	text-decoration: none;
+}
+
+.footer-icons svg{
+	overflow: visible;
+}
+
+.svg{
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+.footer-icons a:hover .svg{
+	fill: var(--Accent);
+}
+
+
 
 
 
@@ -1516,16 +1976,16 @@ footer a:hover{
 
 
 .button-secondary a {
-	color: var(--Accent);
+	color: var(--Low-emp);
 	background-color: var(--Bg);
-	border: 1px solid var(--Accent);
+	border: 1px solid var(--Low-emp);
 	border-radius: 4px;
 }
 
 
 .button-secondary a:hover {
-	color: var(--Bg);
-	background-color: var(--Accent);
+	color: var(--Accent);
+	background-color: var(--Bg);
 	border: 1px solid var(--Accent);
 	border-radius: 4px;
 }
