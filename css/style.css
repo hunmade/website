@@ -1411,7 +1411,8 @@ display: inline-block;
 }
 
 .card__image--fanna {
-  background-image: url(https://fannynagy.com/wp-content/uploads/2019/11/IMG_5355.jpg);
+  /* background-image: url(https://fannynagy.com/wp-content/uploads/2019/11/IMG_5355.jpg); */
+  background-image: url('../images/fanna.jpg');
 }
 
 .card__image--fraau {
@@ -1739,8 +1740,8 @@ background-image: url('../images/szakallasember.jpg');
 background-image: url('../images/gion.jpg');
 }
 
-.card__image-- {
-  background-image: url();
+.card__image--szirmai {
+background-image: url('../images/szirmai.jpg');
 }
 
 .card__image-- {
@@ -1896,7 +1897,7 @@ footer a:hover{
 	padding: 56px 16px 56px 16px;
 }
 
-.footer-text{ 
+.footer-text{
 	color: var(--Med-emp);
 	text-align: center;
 	display: block;
