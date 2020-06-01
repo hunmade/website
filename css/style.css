@@ -1391,7 +1391,8 @@ display: inline-block;
 }
 
 .card__image--printa {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/86725305_10159155504997656_4850214156856459264_o.jpg?_nc_cat=106&_nc_sid=e3f864&_nc_oc=AQnwk47cAKMF-uCAzLdG_SyROapsaczAsEGU1UQXvzphAnv5c-gQsOSOuCVVp1338-FCBxI0OTVDjZ4pHfxKZgub&_nc_ht=scontent-dub4-1.xx&oh=2d7f1681abc3542c1478a555c8308de7&oe=5ED2EB28);
+	  background-image: url('../images/printa.jpg');
+  /* background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/86725305_10159155504997656_4850214156856459264_o.jpg?_nc_cat=106&_nc_sid=e3f864&_nc_oc=AQnwk47cAKMF-uCAzLdG_SyROapsaczAsEGU1UQXvzphAnv5c-gQsOSOuCVVp1338-FCBxI0OTVDjZ4pHfxKZgub&_nc_ht=scontent-dub4-1.xx&oh=2d7f1681abc3542c1478a555c8308de7&oe=5ED2EB28); */
 }
 
 .card__image--matyo {
@@ -1496,7 +1497,8 @@ display: inline-block;
 }
 
 .card__image--symbyo {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/89122272_3126733507360296_7820851926634856448_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_oc=AQmraVwFpAg5sNj3G0OmotuBjCOsYkv854a82WcTxA6Y1GJSpo_QZhE7oAu1PkhoWiBVLD0QNbx-92StUaC9zjgx&_nc_ht=scontent-dub4-1.xx&oh=807df22ffdbd3c758434eaffcad41bfb&oe=5ED27276);
+	  background-image: url('../images/symbyo.jpg');
+  /* background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/89122272_3126733507360296_7820851926634856448_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_oc=AQmraVwFpAg5sNj3G0OmotuBjCOsYkv854a82WcTxA6Y1GJSpo_QZhE7oAu1PkhoWiBVLD0QNbx-92StUaC9zjgx&_nc_ht=scontent-dub4-1.xx&oh=807df22ffdbd3c758434eaffcad41bfb&oe=5ED27276); */
 }
 
 .card__image--tomcsanyi {
