@@ -1366,63 +1366,59 @@ display: inline-block;
 /* IMAGES */
 
 .card__image--kicsicake {
-  background-image: url(https://kicsicake.hu/wp-content/uploads/2018/09/kicsicake-pult.jpg);
+	background-image: url('../images/kicsicake.jpg');
 }
 
 .card__image--fyge {
 	  background-image: url('../images/fyge.jpg');
-  /* background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/s1080x2048/92572787_2847287242019829_8773292337913659392_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_oc=AQm4xqAurALfPQ-KV3vtcIMPGp4tUVxuduFEXiN1tf1VTEcHvNB3CriCUaklYPBEf5DpXS1bscgBzEjTJUfcrEja&_nc_ht=scontent-dub4-1.xx&_nc_tp=7&oh=708f2ab287615652430795b716db73bc&oe=5ED412A2); */
 }
 
 .card__image--gynka {
-  background-image: url(https://assets.bigcartel.com/product_images/227044313/Image+942.jpg?auto=format&fit=max&w=1200);
+	background-image: url('../images/gynka.jpg');
 }
 
 .card__image--milly {
-  background-image: url(https://www.juditvigvari.com/wp-content/uploads/2020/04/61A5FBD5-20B3-43A2-80DC-6F5CEAB489C3.jpeg);
+	background-image: url('../images/milly.jpeg');
 }
 
 .card__image--nove {
 		  background-image: url('../images/nove.jpg');
-  /* background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t31.0-8/23157007_1875616052453010_1059268769223199914_o.jpg?_nc_cat=110&_nc_sid=19026a&_nc_oc=AQmugVvM32Wj6qW05ZGtYNpX7eWBrNsJpBdRzjZdYgscCQ_Z3OWySc8Raf7ViXrVLnH0v9UR3Tgs3vSaOkim5MU4&_nc_ht=scontent-dub4-1.xx&oh=8a13c274e0231134c70338ec327d63de&oe=5ED5B031); */
 }
 
 .card__image--plantethics {
-  background-image: url(https://static.wixstatic.com/media/87af2f_07e0bd1a93f74d20af3c02321a7d151b~mv2_d_1920_2560_s_2.png);
+	background-image: url('../images/plantethics.png');
 }
 
 .card__image--printa {
 	  background-image: url('../images/printa.jpg');
-  /* background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/86725305_10159155504997656_4850214156856459264_o.jpg?_nc_cat=106&_nc_sid=e3f864&_nc_oc=AQnwk47cAKMF-uCAzLdG_SyROapsaczAsEGU1UQXvzphAnv5c-gQsOSOuCVVp1338-FCBxI0OTVDjZ4pHfxKZgub&_nc_ht=scontent-dub4-1.xx&oh=2d7f1681abc3542c1478a555c8308de7&oe=5ED2EB28); */
 }
 
 .card__image--matyo {
-  background-image: url(https://matyodesign.hu/wp-content/uploads/2019/08/Screen-Shot-2019-08-01-at-12.49.45-uai-1096x822.png);
+	background-image: url('../images/matyo.png');
 }
 
 .card__image--apacuka {
-  background-image: url(https://apacukaceramics.com/img/slider/DSCF6892.jpg);
+	background-image: url('../images/apacuka.jpg');
 }
 
 .card__image--pomponia {
-  background-image: url(https://pomponia.hu/_files/200000019-de422de424/_MG_7808.jpg);
+	background-image: url('../images/pomponia.jpg');
 }
 
 .card__image--cirrhopp {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/84088987_763569030798931_3933322498959005038_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=OU129E5XyMYAX9t2gxf&oh=291ff67e49c3229fab29d745d6f91e68&oe=5EE2AEDB);
+background-image: url('../images/cirrhopp.jpg');
 }
 
 .card__image--fanna {
-  /* background-image: url(https://fannynagy.com/wp-content/uploads/2019/11/IMG_5355.jpg); */
   background-image: url('../images/fanna.jpg');
 }
 
 .card__image--fraau {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/81593529_714599019069359_4546811172280738995_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=z4ZJZu2OKfoAX8-6Ghw&oh=4ad192c7532223d83bba2a39e0520bdc&oe=5EE3026F);
+	background-image: url('../images/fraau.jpg');
 }
 
 .card__image--fruitshop {
-  background-image: url(https://fruitshop.hu/wp-content/uploads/2019/02/fruitshop_bemutatkozas_k-07.jpg);
+  background-image: url('../images/fruitshop.jpg');
 }
 
 .card__image--groenk {
@@ -1434,23 +1430,19 @@ display: inline-block;
 }
 
 .card__image--kap {
-  background-image: url(https://kellapudershop.hu/image/cache/catalog/banners/main%20page/banner-kategoria-tanacsadas-650x440h.jpg);
+background-image: url('../images/kap.jpg');
 }
 
 .card__image--kelle {
-  background-image: url(https://keleclothing.com/wp-content/uploads/2015/02/ourstory_000.jpg);
+	background-image: url('../images/kelle.jpg');
 }
 
 .card__image--kiskas {
-  background-image: url(https://assets.bigcartel.com/theme_images/51579062/33.jpg?auto=format&fit=max&w=1800);
+  background-image: url('../images/kiskas.jpg');
 }
 
 .card__image--maminvent {
   background-image: url('../images/maminvent.png');
-}
-
-.card__image--meska {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/95047250_154038036153168_6517742562361908722_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=p4acBfVO_mIAX-9GFv-&oh=8922003d4133ca4457cbce91f2f5ece6&oe=5EE22DC3);
 }
 
 .card__image--milyen {
@@ -1458,7 +1450,7 @@ display: inline-block;
 }
 
 .card__image--muskinn {
-  background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/88346912_2738776949562725_5407173017446907904_o.jpg?_nc_cat=101&_nc_sid=730e14&_nc_oc=AQnhYi24oYfCpo7hPhWTFZrAyHQmVvflMAz_SCkfSJLYlurOgzLlG3buqhlx1f0tOi30jpt6oT_BMusDx1g6K7BD&_nc_ht=scontent-dub4-1.xx&oh=f963345feedd28743da2cedaebc10092&oe=5ED78F25);
+	  background-image: url('../images/muskinn.jpg');
 }
 
 .card__image--nekedterem {
@@ -1466,7 +1458,7 @@ display: inline-block;
 }
 
 .card__image--nesshoes {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/56411012_416400895849932_7692850681056224443_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=L8tiVDFka-cAX9iDASE&oh=d7d227f53b63c55cfa78b49d4d6d53bc&oe=5EE131BF);
+  background-image: url('../images/nesshoes.jpg');
 }
 
 .card__image--nimri {
@@ -1478,11 +1470,11 @@ display: inline-block;
 }
 
 .card__image--panyizsuzsi {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/fr/e15/s1080x1080/87708463_3533687950035207_6872331120723861124_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=E4zLpYgmtogAX_A1qeJ&oh=e54d7eb3586b3a62fa56d4377da78dc7&oe=5EE1E21A);
+  background-image: url('../images/panyizsuzsi.jpg');
 }
 
 .card__image--philomen {
-  background-image: url(https://philomen.eu/Media/lookbook4/one%20pieces/Kaia%20swimsuit/kaia1.jpg);
+  background-image: url('../images/philomen.jpg');
 }
 
 .card__image--reptyike {
@@ -1490,48 +1482,48 @@ display: inline-block;
 }
 
 .card__image--shamo {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/96042995_2676901392591485_667181119338034482_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=mDAsOqUZen4AX-ZxbiM&oh=a24d00ebdcdab8245fe20165060f3ab9&oe=5EE20141);
+  background-image: url('../images/shamo.jpg');
 }
 
 .card__image--sparke {
-  background-image: url(https://cdn.shopify.com/s/files/1/2998/0454/products/spark_store_belul.jpg?v=1575928201);
+background-image: url('../images/sparke.jpg');
 }
 
 .card__image--symbyo {
 	  background-image: url('../images/symbyo.jpg');
-  /* background-image: url(https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/89122272_3126733507360296_7820851926634856448_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_oc=AQmraVwFpAg5sNj3G0OmotuBjCOsYkv854a82WcTxA6Y1GJSpo_QZhE7oAu1PkhoWiBVLD0QNbx-92StUaC9zjgx&_nc_ht=scontent-dub4-1.xx&oh=807df22ffdbd3c758434eaffcad41bfb&oe=5ED27276); */
+
 }
 
 .card__image--tomcsanyi {
-  background-image: url(https://cdn.shopify.com/s/files/1/1799/7811/files/ss20_nyito_1512x.jpg?v=1583090466);
+  background-image: url('../images/tomcsanyi.jpg');
 }
 
 .card__image--touchmenot {
-  background-image: url(https://touchmenotclothing.com/wp-content/uploads/2019/11/DSC_0026_1-335x402.jpg);
+  background-image: url('../images/touchmenot.jpg');
 }
 
 .card__image--underseawear {
-  background-image: url(https://cdn.shopify.com/s/files/1/0304/9085/3515/products/teeorange5_1920notattoo_600x.jpg?v=1583607992);
+	background-image: url('../images/underseawear.jpg');
 }
 
 .card__image--urs {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/83816791_428373171267863_223074529107927924_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=loc-SZWdLpwAX8eTuoA&oh=5753874930b675ba6218ebe5537eb412&oe=5EE0BEF9);
+	background-image: url('../images/urs.jpg');
 }
 
 .card__image--vandor {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/72132986_247709739478763_4200363943663918440_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=H80o-nglByQAX_s3w4y&oh=c4a5dfe3e79b744a49f42d4405ec572a&oe=5EE19089);
+	background-image: url('../images/vandor.jpg');
 }
 
 .card__image--vegabox {
-  background-image: url(https://vegabox.hu/wp-content/uploads/2018/03/image_35-1.jpg);
+	background-image: url('../images/vegabox.jpg');
 }
 
 .card__image--vuuvworks {
-  background-image: url(https://images.squarespace-cdn.com/content/v1/5dc17a09a206641a1279cfd3/1581195804012-DHJ4FS57KMWJ4R7QQ6VG/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/fullsizeoutput_991.jpeg?format=1500w);
+	background-image: url('../images/vuuworks.jpeg');
 }
 
 .card__image--wy {
-  background-image: url(https://www.wyhoys.com/templates/yootheme/cache/_DSC1116-acaaa9fe.jpeg);
+	background-image: url('../images/wy.jpg');
 }
 
 .card__image--malinko {
@@ -1539,19 +1531,15 @@ display: inline-block;
 }
 
 .card__image--fabala {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/73324146_198265261199735_3307696624125909172_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=cAzA8n1adQsAX9e9i7E&oh=7438a1feb546d7ab0c03acc7bbdbd931&oe=5EE128C6);
+	background-image: url('../images/fabala.jpg');
 }
 
 .card__image--thinwood {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/52849511_418109135610101_3491106191305052778_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=PpE88ojPKq4AX_wwwQF&oh=d2ed75f04eeea095d6fd788547aac105&oe=5EE2909E);
+  background-image: url('../images/thinwood.jpg');
 }
 
 .card__image--tinatti {
-  background-image: url("https://tinatti.com/_files/200000002-a7645a85df/66073782_470780930155201_1224107447916953600_o%20(2).jpg");
-}
-
-.card__image--mapmeup {
-  background-image: url(https://scontent-zrh1-1.cdninstagram.com/v/t51.2885-15/e35/73068416_411649023097005_620032636987150595_n.jpg?_nc_ht=scontent-zrh1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=HEtjmbYyZJgAX-mCm0U&oh=ae55aa87c9d38dc3e8e340b1802dde43&oe=5EDFFA04);
+  background-image: url('../images/tinatti.jpg');
 }
 
 .card__image--hazaipiac {
