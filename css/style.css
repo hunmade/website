@@ -61,7 +61,8 @@
 	--Lowest-emp: rgba(255,255,255,0.16);
 	--Divider: rgba(255,255,255,0.12);
 	--Inactive: #BBBBBB;
-	--Bg: #1C1C1C;
+	/* --Bg: #1C1C1C; */
+		--Bg: #171D27;
 	--Accent: #DF7B7B;
 	--Accent-hover: #C55454;
 	--Highlight-color: #F9EDC3;
