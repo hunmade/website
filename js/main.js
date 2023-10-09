@@ -17,39 +17,6 @@ btn.on('click', function(e) {
 
 
 
-// Cookie policy
-// This function is required to test if local storage is available, if not (private mode usually) we just don't show the cookie banner
-
-function testLocalStorage() {
-	var testLS = 'testLS';
-	try {
-		localStorage.setItem(testLS, true);
-		localStorage.removeItem(testLS);
-		return true;
-	} catch(e) {
-		return false;
-	}
-}
-
-// If localStorage is available
-if(testLocalStorage() === true){
-	var cookieDisclaimer = document.querySelector('.cookie-container');
-	var cookieDisclaimerHeight = $('.cookie-container').height();
-	var mainHeaderTop = $('#main-header').css("top");
-	$('.cookie-container').css("top", mainHeaderTop);
-	if (!localStorage.getItem('cookieDisclaimer')) {
-		cookieDisclaimer.classList.add('show');
-		$('#main-header').css("top", parseInt(mainHeaderTop) + cookieDisclaimerHeight);
-	}
-	cookieDisclaimer.querySelector('.disclaimer-button').addEventListener('click', function() {
-		localStorage.setItem('cookieDisclaimer', true);
-		cookieDisclaimer.classList.remove('show');
-	});
-}
-
-
-
-
 
 // more
 
